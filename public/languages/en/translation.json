@@ -1,0 +1,61 @@
+{
+	"Welcome_to_React": "Welcome to React and react-i18next",
+
+	"navBar_go_to": "Go To",
+	"navBar_language": "Language",
+	"navBar_welcome": "Welcome",
+	"navBar_My_Experience": "What I Do",
+	"navBar_Tools": "My Tools",
+	"navBar_projects": "Projects",
+	"navBar_about_me": "About Me",
+	"navBar_resume": "Resume",
+	"navBar_socials": "Social Media",
+	"navBar_go_back": "Go Back",
+
+	"welcome_title": "The Place To Turn Your Ideas Into Reality. Welcome To",
+	"welcome_sub_title": "Hello, my name is Lenddy. I enjoy creating websites and apps that suit your needs using the best technologies. So, what’s your next big idea, and when do you want to make it happen?",
+	"welcome_btns": ["View Resume", "View GitHub", "View LinkedIn", "View Instagram"],
+	"welcome_a_tag": ["Like the logo? ", "Click here", "to see who made it"],
+
+	"whatIDo_title": "My Experience",
+	"whatIDo_left_title": "Full-stack Developer",
+	"whatIDo_left": "As a full-stack developer, I craft websites that adapt to your preferences, covering the front-end visual interface, back-end functionalities, and robust database management. My responsibilities include designing visually appealing and user-friendly front-end interfaces, developing the back-end logic such as server-side processes and APIs, and ensuring efficient and secure data storage in databases. I also create and maintain web services for seamless communication between these components. My work includes adding new features, thorough testing, fixing bugs, and collaborating with cross-functional teams on various projects. Essentially, I am the architect of digital solutions, ensuring they meet client needs and deliver exceptional user experiences while maintaining functionality and data integrity.",
+	"whatIDo_right_title": "PC Builder",
+	"whatIDo_right": "As a PC building enthusiast, I specialize in custom personal computers (PCs) tailored to your specifications. My expertise includes component selection, assembly, and system optimization. PC building starts with meticulously choosing the CPU, GPU, motherboard, RAM, storage, and other components based on performance, compatibility, and budget considerations. I install the operating system and drivers, testing each aspect rigorously to ensure flawless functionality. Besides building new PCs, I offer upgrade and repair services, staying updated on the latest hardware and software trends. I deliver systems optimized for gaming, content creation, professional work, and more.",
+	"whatIDo_bottom_title": "Tutor",
+	"whatIDo_bottom": "As a tutor, my focus is on guiding you to a fundamental understanding of web development. Together, we'll embark on a journey to equip you with the knowledge and skills to confidently navigate the world of web development. Through hands-on learning, you'll build a solid foundation, mastering the essentials of web development. We'll start with HTML and CSS, the building blocks of the web, then move into JavaScript and other key technologies, giving you the proficiency needed to create captivating websites and dynamic web applications. By the end of our journey, you will have the confidence and skills to tackle web development projects independently, paving the way for endless opportunities in innovation and self-reliance.",
+
+	"tools": "My Tools",
+
+	"project_title": ["P", "r", "o", "j", "e", "c", "t", "s"],
+	"projects_left": "A loan management system using: React, MongoDB, MaterialUI, Node.js, and Socket.io.",
+	"projects_middle": "A website for a small cleaning company in Little Rock, Arkansas using: React, MaterialUI, AWS, and Amazon EC2.",
+	"projects_right": "A basic Flappy Bird clone, where instead of a bird, it is a cube made using: Unity and C#.",
+
+	"profile_title": "About Me",
+	"profile_hello": "Hello",
+	"profile_there": "There",
+	"profile_click": "Click Me",
+	"card__body_title": "I AM LENDDY MORALES",
+	"card__body_part1": "I'm a 20-year-old Dominican who can barely dance bachata. I reside in the United States and might move to Puerto Rico someday. I began my higher education journey at 17, majoring in computer engineering. However, I soon realized that the traditional college teaching approach didn't align with my learning style.",
+	"card__body_part2": "I made the bold decision to drop out and seek alternative paths to knowledge. Just a month later, I joined a coding bootcamp called",
+	"card__body_part2_2": ". This intensive four-month programming course pushed me to my limits as I strived to keep up with the fast-paced learning environment. Many nights were spent burning the midnight oil, often going to bed at 4 am and waking up at 11 am. Through laughter, tears, and strong friendships, I persevered, and it paid off. I am now proud to call myself a full-stack developer.",
+	"card__body_part3": "The bootcamp taught me invaluable skills, including how to thrive in high-pressure situations, both individually and as part of a team. I learned the importance of seeking help when needed and offering assistance to others. It instilled in me the habit of learning from my mistakes and continually expanding my knowledge.",
+	"card__body_part4": "My ultimate goal is to return to college one day and resume my computer engineering studies, possibly with a focus on game development or even exploring carpentry.",
+	"card__body_part5": "In my free time, I indulge my passion for video games, basketball, baseball, anime, manga, and listening to rock, pop, and salsa. If any of this resonates with you or piques your interest, feel free to send me a message. Don't hesitate.",
+	"card_a_tag": "Coding Dojo",
+
+	"contact_title": "Contact Me",
+	"contact_send": "Send Message",
+	"contact_message_sent": "Message Sent!!!",
+	"contact_send_error": "There was an error, please try again!!!",
+	"contact_send_back": "Send Another Message",
+	"input_1": "Your Name",
+	"input_2": "Your Email",
+	"text_area": "Insert Your Message Here",
+
+	"name_validation": "Name must be at least 2 characters",
+	"message_validation": "Message must be at least 5 characters",
+	"message_validation_2": "Message can't be longer than 2000 characters",
+	"required": "Required"
+}

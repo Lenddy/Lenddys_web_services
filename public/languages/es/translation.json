@@ -1,0 +1,67 @@
+{
+	"Welcome_to_React": "Bienvenido a React y react-i18next",
+
+	"navBar_go_to": "Ir a",
+	"navBar_language": "Idioma",
+	"navBar_welcome": "Bienvenida",
+	"navBar_My_Experience": "Lo que hago",
+	"navBar_Tools": "Mis herramientas",
+	"navBar_projects": "Proyectos",
+	"navBar_about_me": "Sobre Mí",
+	"navBar_resume": "Resumen",
+	"navBar_socials": "Redes sociales",
+	"navBar_go_back": "Regresar",
+
+	"welcome_title": "El lugar para convertir tus ideas en realidad. Bienvenido a ",
+	"welcome_sub_title": "Hola, mi nombre es Lenddy. Me encanta crear sitios web y aplicaciones que se adapten a tus necesidades, utilizando las mejores tecnologías. ¿Cuál es tu próxima gran idea y cuándo quieres hacerla realidad?",
+	"welcome_btns": ["Ver Resumen", "Ver GitHub", "Ver LinkedIn", "Ver Instagram"],
+	"welcome_a_tag": ["¿Te gusta el logo? ", "haz clic aquí", "para ver quién lo hizo."],
+
+	"whatIDo_title": "Mis Especialidades",
+	"whatIDo_left_title": "Desarrollador Full-stack",
+
+	"whatIDo_left": "Como desarrollador full-stack, mi función es crear sitios web que se adapten a tus preferencias, comenzando desde la interfaz visual de front-end, pasando por las funcionalidades de back-end y extendiéndose hasta la sólida gestión de bases de datos. Mis principales responsabilidades incluyen diseñar interfaces de usuario visualmente atractivas y fáciles de usar, desarrollar la lógica de back-end, que incluye procesos del lado del servidor y APIs, y asegurar el almacenamiento eficiente y seguro de datos en bases de datos. Además, creo y mantengo servicios web para facilitar la comunicación fluida entre estos componentes. Mi trabajo incluye agregar nuevas funciones, realizar pruebas rigurosas, corregir errores y colaborar con equipos multifuncionales en diversos proyectos. En esencia, soy el arquitecto de soluciones digitales, asegurándome de que se alineen con las necesidades de los clientes y brinden una experiencia de usuario de primer nivel, mientras mantengo la funcionalidad y la integridad de los datos.",
+
+	"whatIDo_right_title": "Constructor de PC",
+	"whatIDo_right": "Como entusiasta constructor de computadoras (PC) personalizadas, hago equipos a medida de acuerdo a tus especificaciones. Mi experiencia abarca la selección de componentes, el ensamblaje y la optimización del sistema. El proceso comienza seleccionando cuidadosamente el CPU, GPU, placa base (motherboard), RAM, almacenamiento y otros componentes según el rendimiento, la compatibilidad y el presupuesto. Instalaré el sistema operativo y los controladores, y probaré rigurosamente cada aspecto para asegurar un funcionamiento impecable. Además de construir PCs nuevas, también ofrezco servicios de actualización y reparación, manteniéndome al día con las últimas tendencias de hardware y software, entregando sistemas optimizados para juegos, creación de contenido, trabajo profesional y más.",
+
+	"whatIDo_bottom_title": "Tutor",
+	"whatIDo_bottom": "Como tutor, mi objetivo es guiarte para que tengas una comprensión fundamental del desarrollo web. Juntos, nos embarcaremos en un viaje que te proporcionará el conocimiento y las habilidades necesarias para navegar con confianza en el mundo del desarrollo web. A través del aprendizaje práctico, construirás una base sólida que te permitirá dominar los conceptos básicos del desarrollo web. Comenzaremos con HTML y CSS, los componentes básicos de la web, y luego avanzaremos hacia JavaScript y otras tecnologías clave, brindándote la competencia necesaria para crear sitios web cautivadores y aplicaciones web dinámicas. Al final de nuestro viaje, tendrás la confianza y el conocimiento para abordar proyectos de desarrollo web de forma independiente, abriéndote a infinitas oportunidades de innovación y autosuficiencia en este campo.",
+
+	"tools": "Mis Herramientas",
+
+	"project_title": ["P", "r", "o", "y", "e", "c", "t", "o", "s"],
+	"projects_left": "Un sistema de gestión de préstamos, utilizando: React, MongoDB, MaterialUI, NodeJs y Socket.io.",
+	"projects_middle": "Sitio web para una pequeña empresa de limpieza en Little Rock, Arkansas, utilizando: React, MaterialUI, AWS y Amazon EC2.",
+	"projects_right": "Un clon básico de Flappy Bird. En lugar de un pájaro, es un cubo, hecho usando: Unity y C#.",
+
+	"profile_title": "Sobre mí",
+	"profile_hello": "Hola",
+	"profile_there": "¿Qué tal?",
+	"profile_click": "Haz clic en mí",
+	"card__body_title": "SOY LENDDY MORALES",
+	"card__body_part1": "Soy un joven dominicano de 20 años que apenas sabe bailar bachata. Vivo en Estados Unidos y algún día podría mudarme a Puerto Rico. Comencé mi viaje hacia la educación superior a los 17 años con una especialización en ingeniería informática. Sin embargo, pronto me di cuenta de que el enfoque tradicional de enseñanza universitaria no se alineaba con mi estilo de aprendizaje.",
+	"card__body_part2": "Tomé la audaz decisión de abandonar la carrera y buscar caminos alternativos para adquirir conocimientos. Solo un mes después, me uní a un bootcamp de programación llamado",
+	"card__body_part2_2": ". Este curso intensivo de programación de cuatro meses me llevó al límite mientras me esforzaba por seguir el ritmo del entorno de aprendizaje acelerado. Pasé muchas noches sin dormir, acostándome a menudo a las 4 am y despertándome a las 11 am. A través de risas, lágrimas y forjando fuertes amistades, perseveré y valió la pena. Ahora estoy orgulloso de llamarme desarrollador full-stack.",
+	"card__body_part3": "Me enseñó habilidades invaluables, como prosperar en situaciones de alto estrés, tanto individualmente como en equipo. Aprendí la importancia de pedir ayuda cuando la necesito y ofrecer asistencia a los demás. Me inculcó el hábito de aprender de mis errores y expandir continuamente mis conocimientos.",
+	"card__body_part4": "Mi objetivo final es regresar a la universidad algún día y reanudar mis estudios de ingeniería informática, con la posibilidad de convertirme también en desarrollador de videojuegos o incluso explorar la carpintería.",
+	"card__body_part5": "En mi tiempo libre, disfruto de mi pasión por los videojuegos, el baloncesto, el béisbol, el anime, el manga, y escuchar Rock, Pop y Salsa. Si algo de esto resuena contigo o despierta tu interés, no dudes en enviarme un mensaje.",
+
+	"card_a_tag": "Coding Dojo",
+
+	"contact_title": "Contáctame",
+	"contact_send": "Enviar mensaje",
+	"contact_test_send": "Probar envío",
+	"contact_message_sent": "¡Mensaje enviado!",
+	"contact_send_error": "¡Hubo un error, por favor intenta de nuevo!",
+	"contact_send_back": "¡Enviar otro mensaje!",
+
+	"input_1": "Tu nombre",
+	"input_2": "Tu correo electrónico",
+	"text_area": "Inserta tu mensaje aquí",
+
+	"name_validation": "El nombre debe tener al menos 2 caracteres",
+	"message_validation": "El mensaje debe tener al menos 5 caracteres",
+	"message_validation_2": "El mensaje no puede tener más de 2000 caracteres",
+	"required": "Requerido"
+}

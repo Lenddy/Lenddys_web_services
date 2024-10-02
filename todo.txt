@@ -1,0 +1,39 @@
+fix seeling errors (the are some gramatical errors) ////done 
+
+fix links (some links dont go to the correct locations and some dont exist anymore)
+
+gitHub//// done
+
+linkIn   ///// done
+Insta ///done
+
+resume /// done
+
+coding dojo  /// done
+
+
+
+
+
+red watch this video please https://www.youtube.com/watch?v=dpuKVjX6BJ8
+
+
+fix the bio card letters (the spacing or the size of the letters is to big and is not hidden behind the card)
+
+
+fix the send email card there is an error when sending a message  //// done
+
+
+fix when the bio component renders on the screen find out where the point of pixels is per screen
+
+
+
+project entrance need to be faster 
+
+
+
+
+fix the empty space on the right of the page( you have fix it before look at vetted for reference  or  bendeks auto sales )
+
+
+change the picture of about me /// done
