@@ -31,6 +31,7 @@ const Projects = () => {
 			const scrollY = window.scrollY;
 			let scrollThreshold = 2700; // Adjust the threshold as needed
 			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 2000;
+			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 1800;
 
 			if (!isTitleVisible && scrollY >= scrollThreshold) {
 				// Trigger your GSAP animation here
@@ -44,6 +45,7 @@ const Projects = () => {
 			const scrollY = window.scrollY;
 			let scrollThreshold = 2800; // Adjust the threshold as needed
 			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 2100;
+			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 1900;
 
 			if (!isContentVisible && scrollY >= scrollThreshold) {
 				// Trigger your GSAP animation here
@@ -93,7 +95,7 @@ const Projects = () => {
 				el.classList.remove(activate);
 			});
 			fetch_all[2].classList.add(activate);
-		}, 2000);
+		}, 1000);
 
 		const timeout2 = setTimeout(() => {
 			fetch_all[1].style.opacity = 1;
@@ -103,7 +105,7 @@ const Projects = () => {
 				el.classList.remove(activate);
 			});
 			fetch_all[1].classList.add(activate);
-		}, 4500);
+		}, 3000);
 
 		const timeout3 = setTimeout(() => {
 			fetch_all[0].style.opacity = 1;
@@ -112,7 +114,7 @@ const Projects = () => {
 				el.classList.remove(activate);
 			});
 			fetch_all[0].classList.add(activate);
-		}, 7000);
+		}, 5000);
 
 		// Clear timeouts on component unmount
 		return () => {

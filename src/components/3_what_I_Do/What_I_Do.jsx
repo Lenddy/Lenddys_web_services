@@ -20,7 +20,8 @@ const What_I_Do = () => {
 			const scrollY = window.scrollY;
 			let scrollThreshold = 300; // Adjust the threshold as needed
 			if (windowWidth < 1500) scrollThreshold = 700;
-			// ! continue fixing the pixel were the elemnts show for every screen size
+			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 400;
+			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 150;
 			if (!isTitleVisible && scrollY >= scrollThreshold) {
 				// Trigger your GSAP animation here
 				gsap.to(title, { opacity: 1, y: 0, duration: 1 });
@@ -33,6 +34,8 @@ const What_I_Do = () => {
 			const scrollY = window.scrollY;
 			let scrollThreshold = 400; // Adjust the threshold as needed
 			if (windowWidth < 1500) scrollThreshold = 850;
+			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 400;
+			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 150;
 
 			if (!isContentVisible && scrollY >= scrollThreshold) {
 				// Trigger your GSAP animation here

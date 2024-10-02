@@ -23,7 +23,6 @@ const Tools = () => {
 	const cookieValue = Cookies.get("i18next");
 
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
 	useEffect(() => {
 		const title = titleRef.current;
 		const content = contentRef.current;
@@ -32,6 +31,8 @@ const Tools = () => {
 			// Calculate the scroll position to determine when to make the element visible
 			const scrollY = window.scrollY;
 			let scrollThreshold = 1600; // Adjust the threshold as needed
+			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 1100;
+			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 900;
 
 			// if (windowWidth >= 1500) scrollThreshold = 4500;
 			if (!isTitleVisible && scrollY >= scrollThreshold) {
@@ -44,7 +45,9 @@ const Tools = () => {
 		const onScroll2 = () => {
 			// Calculate the scroll position to determine when to make the element visible
 			const scrollY = window.scrollY;
-			const scrollThreshold = 1700; // Adjust the threshold as needed
+			let scrollThreshold = 1700; // Adjust the threshold as needed
+			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 1200;
+			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 1000;
 
 			if (!isContentVisible && scrollY >= scrollThreshold) {
 				// Trigger your GSAP animation here

@@ -29,6 +29,8 @@ const Profile = () => {
 			// if (windowWidth >= 1000) scrollThreshold = 4800;
 			// if (windowWidth >= 850) scrollThreshold = 5000;
 			// if (windowWidth >= 1500) scrollThreshold = 4500;
+			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 3200;
+			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 3100;
 			if (!isTitleVisible && scrollY >= scrollThreshold) {
 				// Trigger your GSAP animation here
 				gsap.to(title, { opacity: 1, y: 0, duration: 1 });
@@ -43,7 +45,8 @@ const Profile = () => {
 			// if (windowWidth >= 1500) scrollThreshold = 4600;
 			// if (windowWidth >= 1000) scrollThreshold = 4900;
 			// if (windowWidth >= 850) scrollThreshold = 5400;
-
+			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 3200;
+			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 3200;
 			if (!isContentVisible && scrollY >= scrollThreshold) {
 				// Trigger your GSAP animation here
 				gsap.to(content, { opacity: 1, y: 0, duration: 1 });
