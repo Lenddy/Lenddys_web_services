@@ -151,7 +151,7 @@ const NavBar = ({ changeMode, setChangeMode, AnimationsRepetitionMode, setAnimat
 						</DropDownItem>
 
 						<DropDownItem
-							// leftIcon={"👋🏼"}
+							leftIcon={<Language />}
 							// rightIcon={"👌"}
 							goToMenu="Language_dropdown">
 							{/* Language */}
