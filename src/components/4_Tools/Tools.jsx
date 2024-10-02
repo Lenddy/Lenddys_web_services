@@ -1,5 +1,5 @@
 import html from "../../assets/tech_logos/html5-color.svg";
-import css from "../../assets/tech_logos/Css3-color.svg";
+import css from "../../assets/tech_logos/css3-color.svg";
 import js from "../../assets/tech_logos/javascript-color.svg";
 import py from "../../assets/tech_logos/python-color.svg";
 import csharp from "../../assets/tech_logos/csharp-color.svg";
