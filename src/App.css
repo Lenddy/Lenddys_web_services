@@ -1,7 +1,7 @@
 /*! make use of the @media selector        go see this video to help  https://www.youtube.com/watch?v=yU7jJ3NbPdA  */
 
 #root {
-	/* max-width: 2560px; */
+	max-width: 2560px;
 	width: 100%;
 	margin: 0px;
 	text-align: center;

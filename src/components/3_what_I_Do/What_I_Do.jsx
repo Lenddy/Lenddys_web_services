@@ -18,8 +18,7 @@ const What_I_Do = () => {
 		const onScroll = () => {
 			// Calculate the scroll position to determine when to make the element visible
 			const scrollY = window.scrollY;
-			let scrollThreshold = 300; // Adjust the threshold as needed
-			if (windowWidth < 1500) scrollThreshold = 700;
+			let scrollThreshold = 200; // Adjust the threshold as needed
 			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 400;
 			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 150;
 			if (!isTitleVisible && scrollY >= scrollThreshold) {
@@ -32,7 +31,7 @@ const What_I_Do = () => {
 		const onScroll2 = () => {
 			// Calculate the scroll position to determine when to make the element visible
 			const scrollY = window.scrollY;
-			let scrollThreshold = 400; // Adjust the threshold as needed
+			let scrollThreshold = 300; // Adjust the threshold as needed
 			if (windowWidth < 1500) scrollThreshold = 850;
 			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 400;
 			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 150;

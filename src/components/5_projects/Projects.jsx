@@ -29,7 +29,7 @@ const Projects = () => {
 		const onScroll = () => {
 			// Calculate the scroll position to determine when to make the element visible
 			const scrollY = window.scrollY;
-			let scrollThreshold = 2700; // Adjust the threshold as needed
+			let scrollThreshold = 2100; // Adjust the threshold as needed
 			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 2000;
 			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 1800;
 
@@ -43,7 +43,7 @@ const Projects = () => {
 		const onScroll2 = () => {
 			// Calculate the scroll position to determine when to make the element visible
 			const scrollY = window.scrollY;
-			let scrollThreshold = 2800; // Adjust the threshold as needed
+			let scrollThreshold = 2200; // Adjust the threshold as needed
 			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 2100;
 			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 1900;
 

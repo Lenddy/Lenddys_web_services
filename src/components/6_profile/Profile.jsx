@@ -24,11 +24,12 @@ const Profile = () => {
 		const onScroll = () => {
 			// Calculate the scroll position to determine when to make the element visible
 			const scrollY = window.scrollY;
-			let scrollThreshold = 3900; // Adjust the threshold as needed
+			let scrollThreshold = 2900; // Adjust the threshold as needed
 			// if (windowWidth >= 1500) scrollThreshold = 4500;
 			// if (windowWidth >= 1000) scrollThreshold = 4800;
 			// if (windowWidth >= 850) scrollThreshold = 5000;
 			// if (windowWidth >= 1500) scrollThreshold = 4500;
+
 			if (windowWidth > 850 && windowWidth < 1000) scrollThreshold = 3200;
 			if (windowWidth > 750 && windowWidth < 850) scrollThreshold = 3100;
 			if (!isTitleVisible && scrollY >= scrollThreshold) {
@@ -41,7 +42,7 @@ const Profile = () => {
 		const onScroll2 = () => {
 			// Calculate the scroll position to determine when to make the element visible
 			const scrollY = window.scrollY;
-			let scrollThreshold = 4000; // Adjust the threshold as needed
+			let scrollThreshold = 3000; // Adjust the threshold as needed
 			// if (windowWidth >= 1500) scrollThreshold = 4600;
 			// if (windowWidth >= 1000) scrollThreshold = 4900;
 			// if (windowWidth >= 850) scrollThreshold = 5400;
